@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+    <link rel="stylesheet" href="./registratsiya.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="container nav_container">
+                <a href="index.html" class="nav_logo">Your <span class="span">Dream</span></a>
+                <ul class="nav_links">
+                    <li><a href="../index.html">Главная</a></li>
+                    <li><a href="../about/about.html">О Нас</a></li>
+                    <li><a href="../doma/dom.html">Дома</a></li>
+                    <li><a href="../adress/location.html">Наш Адрес</a></li>
+                    <li><a href="../registratsiya/registratsiya.html">Регистрация</a></li>
+                </ul>
+                <ul class="nav_socials">
+                    <li><a href="https://instagram.com/"><i class="uil uil-instagram-alt"></i></a></li>
+                    <li><a href="https://instagram.com/"><i class="uil uil-twitter"></i></a></li>
+                    <li><a href="https://instagram.com/"><i class="uil uil-youtube"></i></a></li>
+                </ul>
+                <button class="nav_toggle-btn" id="nav_toggle-open"><i class="uil uil-bars"></i></button>
+                <button class="nav_toggle-btn" id="nav_toggle-close"><i class="uil uil-multiply"></i></button>
+            </div>
+        </nav>
+    </header>
+
+
+
+   <div class="div">
+    <div class="wrapper">
+        <header>Login Form</header>
+        <form action="#">
+          <div class="field email">
+            <div class="input-area">
+              <input type="text" placeholder="Email Address">
+              <i class="icon fas fa-envelope"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Email can't be blank</div>
+          </div>
+          <div class="field password">
+            <div class="input-area">
+              <input type="password" placeholder="Password">
+              <i class="icon fas fa-lock"></i>
+              <i class="error error-icon fas fa-exclamation-circle"></i>
+            </div>
+            <div class="error error-txt">Password can't be blank</div>
+          </div>
+          <div class="pass-txt"><a href="#">Forgot password?</a></div>
+          <input type="submit" value="Login">
+        </form>
+        <div class="sign-txt">Not yet member? <a href="#">Signup now</a></div>
+      </div>
+   </div>
+   <script src="./script.js"></script>
+</body>
+</html>
